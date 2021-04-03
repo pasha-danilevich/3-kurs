@@ -1,0 +1,143 @@
+nav .center a:nth-child(2):hover ~ .under_line{
+	transform: translateX(80px);
+	width: 60px;
+}
+nav .center a:nth-child(3):hover ~ .under_line{
+	transform: translateX(166px);
+	width: 80px;
+}
+nav .center a:nth-child(4):hover ~ .under_line{
+	transform: translateX(274px);
+	width: 50px;
+}
+nav .center a:nth-child(5):hover ~ .under_line{
+	transform: translateX(354px);
+    width: 116px;
+}
+nav .center a:nth-child(6):hover ~ .under_line{
+	transform: translateX(502px);
+    width: 91px;
+}
+nav .center a:nth-child(7):hover ~ .under_line{
+	transform: translateX(626px);
+    width: 94px;
+}
+
+
+
+
+
+
+
+
+
+
+.blocks .left .small-photo {
+	background-image: url(../img/Layer_37.png);
+	background-position: 166px -39px;
+	margin-top: 20px;
+}
+.blocks .right .big-photo {
+	background-image: url(../img/Layer_31.png);
+	margin-top: 20px;
+}
+.blocks .right .small-photo {
+	background-image: url(../img/Layer_32.png);
+	background-position: 0px -100px;
+}
+
+
+
+
+
+.fetured-items .box .center  .top-line 
+.content:nth-child(1) .photo{
+	background-image: url(../img/Layer_2.png);
+	margin-left: 0px;
+}
+.fetured-items .box .center  .top-line 
+.content:nth-child(2) .photo{
+	background-image: url(../img/Layer_3.png);
+}
+.fetured-items .box .center  .top-line 
+.content:nth-child(3) .photo{
+	background-image: url(../img/Layer_4.png);
+}
+.fetured-items .box .center  .top-line
+.content:nth-child(4) .photo{
+	background-image: url(../img/Layer_5.png);
+}
+.fetured-items .box .center  .bottom-line
+.content:nth-child(1) .photo{
+	background-image: url(../img/Layer_6.png);
+}
+.fetured-items .box .center  .bottom-line
+.content:nth-child(2) .photo{
+	background-image: url(../img/Layer_7.png);
+}
+.fetured-items .box .center  .bottom-line
+.content:nth-child(3) .photo{
+	background-image: url(../img/Layer_8.png);
+}
+.fetured-items .box .center  .bottom-line
+.content:nth-child(4) .photo{
+	background-image: url(../img/Layer_9.png);
+}
+
+
+
+.also .content:nth-child(1) .photo {
+	background-image: url(../img/Layer-44-1.png);
+	background-position: 88px 0;
+}
+.also .content:nth-child(2) .photo {
+	background-image: url(../img/Layer-44-2.png);
+	background-position: 88px -14px;
+}
+.also .content:nth-child(3) .photo {
+	background-image: url(../img/Layer-44-3.png);
+	background-position: 88px 7px;
+}
+.also .content:nth-child(4) .photo {
+	background-image: url(../img/Layer-44-4.png);
+	background-position: 0 0;
+}
+
+
+
+.product-content .content:nth-child(1) .photo{
+	background-image: 
+	url(../img/Image-placeholder-1.png);
+}
+.product-content .content:nth-child(2) .photo{
+	background-image: 
+	url(../img/Image-placeholder-2.png);
+}
+.product-content .content:nth-child(3) .photo{
+	background-image: 
+	url(../img/Image-placeholder-3.png);
+}
+.product-content .content:nth-child(4) .photo{
+	background-image: 
+	url(../img/Image-placeholder-4.png);
+}
+.product-content .content:nth-child(5) .photo{
+	background-image: 
+	url(../img/Image-placeholder-1.png);
+}
+.product-content .content:nth-child(6) .photo{
+	background-image: 
+	url(../img/Image-placeholder-2.png);
+}
+.product-content .content:nth-child(7) .photo{
+	background-image: 
+	url(../img/Image-placeholder-3.png);
+}
+.product-content .content:nth-child(8) .photo{
+	background-image: 
+	url(../img/Image-placeholder-4.png);
+}
+.product-content .content:nth-child(9) .photo{
+	background-image: 
+	url(../img/Image-placeholder-2.png);
+}

@@ -1,0 +1,262 @@
+/*----------transition*/
+
+* {
+	transition: 0.5s;
+}
+
+
+
+
+
+
+/*---------------haeder*/
+@media (max-width: 1366px) {
+	header .line {
+	width: 100%;
+}
+}
+@media (max-width: 1100px) {
+	.line .center .search-line{
+		margin: 33px 0px 0px 10px;
+}
+}
+@media (max-width: 1100px) {
+	.line .account img{
+		display: none;
+}
+}
+@media (max-width: 1100px) {
+	.line .account .my-account{
+		left:60px;
+	}
+}
+/*--------------------------navigation*/
+
+/*--------------------------the-brand*/
+@media (max-width: 1100px) {
+	.the-brand .content  {
+		height: 300px;
+	}
+}
+@media (max-width: 1100px) {
+	.the-brand .content img {
+		display: none;
+	}
+}
+@media (max-width: 1100px) {
+	.the-brand .content .center {
+		margin-top: 75px;
+		margin-left: calc(50% - 250px);
+	}
+}
+/*------------------------------blocks*/
+@media (max-width: 1200px){
+	.blocks .box  {
+		justify-content: center;
+		flex-wrap: wrap;
+		height: 1130px;
+		padding: 0 40px 0 40px;
+
+	}
+}
+@media (max-width: 1200px){
+	.blocks .left  {
+		height: 540px;
+
+	}
+}
+@media (max-width: 1200px){
+	.blocks .right  {
+		margin-left: 0;
+		height: 540px;
+
+	}
+}
+@media (max-width: 1200px){
+	.blocks .big-photo  {
+		height: 260px;
+
+	}
+}
+/*---------------------------------fetured-items*/
+@media (max-width: 1230px) {
+	.fetured-items {
+		height: 1950px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+@media (max-width: 1230px) {
+	.fetured-items .box{
+		height: 1850px;
+		width: inherit;
+	}
+}
+@media (max-width: 1230px) {
+	.fetured-items .box .center {
+		height: 1430px;
+		display: flex;
+		width: inherit;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+@media (max-width: 1230px) {
+	.fetured-items .box .center  .top-line {
+		height: 700px;
+		width: 800px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+@media (max-width: 1230px) {
+	.fetured-items .box .center  .bottom-line {
+		height: 700px;
+		width: 800px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+@media (max-width: 1230px) {
+	.fetured-items .box .center  .content:nth-child(3) {
+		margin-left: 0;
+	}
+}
+@media (max-width: 1230px) {
+	.fetured-items .box .center  .content:nth-child(1) {
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 1230px) {
+	.fetured-items .box .center  .content:nth-child(2) {
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 800px) {
+	.fetured-items .box .top {
+		display: none;
+
+	}
+}
+@media (max-width: 1230px) {
+	.fetured-items .box .top {
+    	width: inherit;
+}
+}
+@media (max-width: 1230px) {
+	.fetured-items .box .bottom {
+    	height: 226px;
+    	width: inherit;
+}
+}
+
+/*-----------------------------------for-woman*/
+
+@media (max-width: 1230px) {
+	.for-woman  {
+		height: calc(1100px);
+	}
+}
+@media (max-width: 1230px) {
+	.for-woman .box {
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 768px;
+		height: calc(529px * 2);
+	}
+}
+@media (max-width: 1230px) {
+	.for-woman .box .right{
+		width: 768px;
+		height: 430px;
+	}
+}
+@media (max-width: 1230px) {
+	.for-woman .box .right .inside{
+		width: 700px;
+		display: flex;
+		flex-wrap: wrap; 
+		
+	}
+}
+
+
+/*---------------------------------------------comment*/
+@media (max-width: 1120px) {
+	.comment .center {
+		padding-top: 20px;
+		margin-top: 0;
+		height: inherit;
+		width: 700px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		background-color: #ffffff7a;
+	
+}
+}
+@media (max-width: 1120px) {
+	.comment .center .subscribe {
+	padding-top: 0px;
+
+}
+}
+
+/*-------------------------footer*/
+@media (max-width: 1120px) {
+	footer .info {
+		height: 430px;
+		width: 600px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+}
+}
+@media (max-width: 1120px) {
+	footer .info .sidebar {
+		width: 100px;
+		height: 300px;
+		display: block;
+}
+}
+@media (max-width: 1120px) {
+	footer .info .sidebar .category {
+		height: 30px;
+}
+}
+@media (max-width: 1120px) {
+	footer .info .sidebar .category p {
+		border-left: 5px solid #ef5b70;
+}
+}
+@media (max-width: 1120px) {
+	footer .info .sidebar .category:hover {
+		height: 300px;
+}
+}
+@media (max-width: 1120px) {
+	footer .info .sidebar .category .line a:hover {
+		border-left: 5px solid #ef5b70;
+		box-sizing: border-box;
+}
+}
+@media (max-width: 1120px) {
+	footer .info .brend {
+		display: block;
+}
+}
+/*-----------------------*/
+
+@media (max-width: 1200px) {
+	.main-content .product .center .sidebar {
+	display: none;
+}
+}
+
+    
+
+
+
+
+

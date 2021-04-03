@@ -1,0 +1,154 @@
+.main-content {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.main-content .center {
+	width: 1140px;
+}
+.main-content .center .line {
+	height: 72px;
+	width: 974px;
+	height: 44px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	overflow: hidden;
+	border-bottom: 1px solid #b3b2b2;
+}
+.main-content .center .line:hover {
+	height: 398px;
+}
+.main-content .center .line p {
+	width: 974px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19.2px;
+	text-align: left;
+	color: #222;
+	margin-top: 10px;
+
+}
+.center .line .left {
+	width: 50%;
+	height: 360px;
+	margin-top: 30px;
+}
+.center .line .left h2 {
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 15.6px;
+	text-align: left;
+	color: #222;
+	margin-bottom: 10px;
+
+}
+.center .line .left p {
+	font-size: 13px;
+	line-height: 20px;
+	text-align: left;
+	color: #b3b2b2;
+	margin-bottom: 15px;
+	width: 300px;
+
+}
+.center .line .left label {
+	display: block;
+	margin: 5px 0 5px 0;
+}
+.center .line .left label input {
+
+}
+.center .line .left label span {
+	font-size: 12px;
+	line-height: 14.4px;
+	text-align: left;
+	color: #222;
+	margin-left: 5px;
+	margin-bottom: 2px;
+}
+.center .line .left i {
+	font-size: 13px;
+	line-height: 20px;
+	text-align: left;
+	color: #b3b2b2;
+	margin-right: 3px;
+}
+.center .line .left button {
+	width: 180px;
+	height: 50px;
+	background: #fff;
+	border: 1px solid #eaeaea;
+	outline: 0;
+	margin-top: 30px;
+
+}
+.center .line .right {
+	width: 50%;
+	height: 364px;
+	margin-top: 30px;
+
+}
+.center .line .right h2 {
+	font-size: 13px;
+	line-height: 15.6px;
+	text-align: left;
+	color: #222;
+	margin-bottom: 10px;
+}
+.center .line .right p {
+	font-size: 13px;
+	line-height: 20px;
+	text-align: left;
+	color: #b3b2b2;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	width: 120px;
+}
+.center .line .right p:nth-child(2){
+	margin-top: 0;
+}
+
+.center .line .right input {
+	width: 390px;
+	height: 45px;
+	background: #fff;
+	border: 1px solid #eaeaea;
+	outline:0;
+	padding-left: 10px;
+	color: #b3b2b2;
+
+}
+.center .line .right button {
+	width: 180px;
+	height: 50px;
+	background: #fff;
+	border: 1px solid #eaeaea;
+	margin-top: 30px;
+
+}
+.center .line .right .pricol {
+	width: 392px;
+	height: 110px;
+	position: relative;
+}
+.center .line .right .pricol p {
+	position: absolute;
+	left: 270px;
+    top: 46px;
+    width: 111px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+	.main-content .center {
+    margin-left: 80px;
+}
+}

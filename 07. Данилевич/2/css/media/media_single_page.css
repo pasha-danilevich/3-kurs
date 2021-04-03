@@ -1,0 +1,52 @@
+/*---------------------------------fetured-items also*/
+@media (max-width: 1230px) {
+	.fetured-items {
+		height: 890px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+@media (max-width: 1230px) {
+	.fetured-items .center {
+		height: 890px;
+		display: flex;
+		width: inherit;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+@media (max-width: 1230px) {
+	.fetured-items .center  .top-line {
+		height: 700px;
+		width: 800px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+@media (max-width: 1230px) {
+	.fetured-items .center  .bottom-line {
+		height: 700px;
+		width: 800px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+@media (max-width: 1230px) {
+	.fetured-items .center  .content:nth-child(3) {
+		margin-left: 0;
+	}
+}
+@media (max-width: 1230px) {
+	.fetured-items  .center  .content:nth-child(1) {
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 1230px) {
+	.fetured-items  .center  .content:nth-child(2) {
+		margin-bottom: 20px;
+	}
+}
+
+
+

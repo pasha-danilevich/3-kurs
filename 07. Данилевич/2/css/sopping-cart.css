@@ -1,0 +1,50 @@
+.main-content {
+    height: 1123px;
+    display: flex;
+    justify-content: center;
+}
+.main-content .center {
+    width: 1170px;
+}
+.main-content .center .top-line {
+    width: 1170px;
+    display: flex;
+}
+.main-content .center .top-line .left {
+    width: 240px;
+}
+.main-content .center .top-line .right {
+    width: 930px;
+}
+.main-content .center .content {
+    display: flex;
+    justify-content: center;
+}
+.main-content .center .content .left {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-content .center .content .left .photo {
+    width: 100px;
+    height: 115px;
+    background-image: url(../img/Product-Image.png);
+}
+.main-content .center .content .left .text {
+    width: 400px;
+}
+.main-content .center .content .left .text h1 {
+    font-size: 13px;
+    line-height: 15.6px;
+    text-align: left;
+    color: #222;
+}
+.main-content .center .content .left .text p {
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    color: #6f6e6e;
+}
+.main-content .center .content .right {
+    width: 670px;
+}
